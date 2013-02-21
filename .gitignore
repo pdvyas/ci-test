@@ -1,0 +1,6 @@
+*.pyc
+*.DS_STORE
+media
+*.egg-info
+/dist
+_build/

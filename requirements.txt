@@ -1,4 +1,4 @@
-Django==1.5c1
+git+git://github.com/django/django.git@1.5c1
 coverage==3.6
 dj-database-url==0.2.1
 django-jenkins==0.14.0

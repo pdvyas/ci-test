@@ -147,13 +147,15 @@ LOGGING = {
 }
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
-# JENKINS_TEST_RUNNER='django_jenkins.nose_runner.CINoseTestSuiteRunner'
 JENKINS_TASKS = (
     'django_jenkins.tasks.run_pylint',
     'django_jenkins.tasks.with_coverage',
     'django_jenkins.tasks.django_tests',
+    'django_jenkins.tasks.dir_tests',
 )
 
 PROJECT_APPS = (
         'ss2.testapp',
         )
+
+JENKINS_TEST_RUNNER='nose_runner.CINoseTestSuiteRunner'

@@ -1,0 +1,12 @@
+Django==1.5c1
+coverage==3.6
+dj-database-url==0.2.1
+django-jenkins==0.14.0
+django-nose==1.1
+ipython==0.13.1
+logilab-astng==0.24.1
+logilab-common==0.59.0
+nose==1.2.1
+psycopg2==2.4.6
+pylint==0.26.0
+wsgiref==0.1.2
